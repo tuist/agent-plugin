@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tuist",
+  "version": "0.1.0",
+  "description": "Agent Skills and MCP access to your Tuist projects: migrate to generated projects, fix flaky tests, and compare builds, tests, bundles, and cache runs.",
+  "author": {
+    "name": "Tuist GmbH",
+    "email": "contact@tuist.dev",
+    "url": "https://tuist.dev"
+  },
+  "homepage": "https://tuist.dev/en/docs/guides/features/agentic-coding/skills",
+  "repository": "https://github.com/tuist/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tuist",
+    "xcode",
+    "swift",
+    "gradle",
+    "android",
+    "build-cache",
+    "selective-testing",
+    "flaky-tests",
+    "bundle-size"
+  ]
+}
