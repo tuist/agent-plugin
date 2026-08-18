@@ -1,6 +1,8 @@
 # Tuist Agent Plugin
 
-An [Agent Plugin](https://agent-plugins.org) that gives coding agents everything they need to work with [Tuist](https://tuist.dev): a set of Agent Skills for common Tuist workflows, and the Tuist MCP server for reading your projects' build, test, bundle, and cache data.
+An [Agent Plugin](https://agent-plugins.org) for [Tuist](https://tuist.dev), the infrastructure that speeds up build and test toolchains. It bundles Agent Skills for common Tuist workflows together with the Tuist MCP server, so coding agents can read the build, test, bundle, and cache data your toolchain reports and act on it.
+
+Tuist plugs into the Xcode and Gradle projects you already have. Generated projects are one of its features, not a prerequisite, so most of what this plugin offers applies whatever your project layout looks like.
 
 Agent Plugins is an open, vendor-neutral standard for packaging reusable agent components. Packaging the skills and the MCP server together means one install wires up both, in any client that speaks the standard.
 

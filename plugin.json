@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tuist",
   "version": "0.1.0",
-  "description": "Agent Skills and MCP access to your Tuist projects: migrate to generated projects, fix flaky tests, and compare builds, tests, bundles, and cache runs.",
+  "description": "Agent Skills and MCP access for Tuist, the infrastructure that speeds up build and test toolchains: caching, selective testing, and build, test, and bundle insights for Xcode and Gradle projects.",
   "author": {
     "name": "Tuist GmbH",
     "email": "contact@tuist.dev",
