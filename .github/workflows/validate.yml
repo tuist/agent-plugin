@@ -18,9 +18,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
-        with:
-          # The plugin has no Python dependency manifest, so there is nothing
-          # for the cache to key on.
-          enable-cache: false
+      # No toolchain setup step: the script only needs python3 and pipx, both
+      # of which ship with the runner image.
       - run: ./scripts/validate.sh
