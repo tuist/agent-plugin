@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          # The plugin has no Python dependency manifest, so there is nothing
+          # for the cache to key on.
+          enable-cache: false
       - run: ./scripts/validate.sh
