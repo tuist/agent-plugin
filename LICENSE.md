@@ -1,5 +1,3 @@
-# License
-
 MIT License
 
 Copyright (c) from 2018 Tuist GmbH
